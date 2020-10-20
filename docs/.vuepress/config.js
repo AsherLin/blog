@@ -15,5 +15,13 @@ module.exports = {
   title: "Asher's Blog",
   description: "Just write my notes!",
   theme: "reco",
-  themeConfig
+  themeConfig,
+  plugins: [
+    [
+      "@vuepress/google-analytics",
+      {
+        ga: "UA-180951962-1"
+      }
+    ]
+  ]
 };

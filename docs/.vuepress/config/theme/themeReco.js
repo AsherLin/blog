@@ -5,6 +5,8 @@ module.exports = {
   codeTheme: "okaidia",
   startYear: "2020",
   noFoundPageByTencent: false,
+  mode: "light",
+  modePicker: false,
 
   nav: [
     {
